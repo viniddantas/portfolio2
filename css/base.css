@@ -24,3 +24,20 @@ section {
     padding: 1rem;
 }
 
+.primary-button {
+    background-color: transparent;
+    border: solid #FFB703;
+    border-radius: 10px;
+    color: #FFB703;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: .7rem 1rem;
+}
+.secondary-button {
+    background-color: #FFB703;
+    border-radius: 10px;
+    color: #021526;
+    text-decoration: none;
+    padding: .7rem 1rem;
+    display: inline-block;
+} 
