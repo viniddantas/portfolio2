@@ -5,3 +5,93 @@
     font-weight: bold;
     text-align: center;
 }
+
+/*Main*/
+/*Apresentacao*/
+.presentation {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.presentation > :first-child{
+    padding-bottom: 0.5rem;
+}
+.presentation > :nth-child(2){
+    padding-bottom: .3rem;
+}
+
+.name {
+    color: #FFB703;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.cargo {
+    color: #C0C0C0;
+    font-size: .8rem;
+}
+.download-CV {
+    background-color: transparent;
+    border: solid #FFB703;
+    border-radius: 10px;
+    color: #FFB703;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: .7rem 1rem;
+    margin-top: 1rem;
+}
+
+.foto-de-perfil {
+    border-radius: 50%;
+    height: calc(100vw - 2rem);
+    width: calc(100vw - 2rem);
+    object-fit: cover;
+    margin: 1rem 0 1rem 0;
+}
+
+/*Sobre Mim*/
+.about-me__description {
+    text-align: justify;
+}
+
+/*Formação Acadêmica*/
+.education__item:first-of-type {
+    margin-bottom: 1rem;
+}
+.ufabc-logo {
+    width: calc(100vw - 2rem);
+    padding: 1rem 0;
+    height: 100px;
+    background-image: url('../assets/icons/logo-ufabc-sigla-abaixo-principal-svg.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: #001B2E;
+    background-origin: content-box;
+    border-radius: 10px;
+}
+.education__item__title {
+    padding: .7rem 0;
+}
+
+/*Habilidades*/
+.skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.skills__item {
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #001B2E;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(50% - 1rem);
+    gap: .3rem;
+    height: 136px;
+}
+
+.skill-level {
+    font-size: 0.8rem;
+}

@@ -1,4 +1,26 @@
 body {
     background-color: #021526;
+    color: #fff;
     font-family: 'Roboto', sans-serif;
 }
+
+.title {
+    color: #FFB703;
+    padding-bottom: .7rem;
+    font-size: 1.375rem;
+    font-weight: bold;
+}
+
+.secondary-title {
+    color: #FFB703;
+    padding: .5rem 0;
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+section {
+    padding: 1rem;
+}
+
