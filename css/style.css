@@ -148,3 +148,8 @@
     font-family: 'Roboto', sans-serif;
     border: none;
 }
+
+/*Footer*/
+footer {
+    background-color: #001B2E;
+}
