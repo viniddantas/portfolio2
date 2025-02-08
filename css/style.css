@@ -36,8 +36,10 @@
 
 .foto-de-perfil {
     border-radius: 50%;
-    height: calc(100vw - 2rem);
-    width: calc(100vw - 2rem);
+    /* height: calc(100vw - 2rem);
+    width: calc(100vw - 2rem); */
+    height: 250px;
+    width: 250px;
     object-fit: cover;
     margin: 1rem 0 1rem 0;
 }
@@ -171,8 +173,10 @@
         font-size: 1rem;
     }
     .foto-de-perfil {
-        height: calc(50vw - 2rem);
-        width: calc(50vw - 2rem);
+        /* height: calc(50vw - 2rem);
+        width: calc(50vw - 2rem); */
+        height: 250px;
+        width: 250px;
     }
     .cargo {
         font-size: 1.625rem;
