@@ -122,16 +122,16 @@
 .contact__info__item:last-child {
     margin-bottom: 0;
 }
-.contact__container {
+.contact__info__container {
     width: fit-content;
     margin: auto;
     text-align: center;
     padding: .7rem 0;
 }
-.contact__container p, .contact__container a {
+.contact__info__container p, .contact__info__container a {
     color: #001B2E;
     text-decoration: none;
-    padding: .2rem 0;
+    padding: .2rem 1rem;
 }
 .contact__logo {
     width: 50px;
@@ -192,5 +192,15 @@
     .projects__item {
         width: calc(100vw - 4rem);
     }
-    
+
+    .contact__container {
+        display: flex;
+        gap: 2rem;
+    }
+    .contact-form {
+        flex: 1 0;
+    }
+    .contact-form form {
+        margin: 0;
+    }
 }
