@@ -12,6 +12,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 .presentation > :first-child{
     padding-bottom: 0.5rem;
@@ -147,4 +148,34 @@
     padding: .75rem 1rem;
     font-family: 'Roboto', sans-serif;
     border: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .presentation {
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .presentation__container {
+        text-align: left;
+    }
+    .presentation__container > :nth-child(n) {
+        padding: .5rem 0;
+    }
+    .presentation__container div {
+        display: flex;
+        gap: 6px;
+    }
+    .presentation__container div p, .presentation__container div .name{
+        font-size: 1rem;
+    }
+    .foto-de-perfil {
+        height: calc(50vw - 2rem);
+        width: calc(50vw - 2rem);
+    }
+    .cargo {
+        font-size: 1.625rem;
+        font-weight: bold;
+    }
 }
