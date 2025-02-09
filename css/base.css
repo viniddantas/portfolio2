@@ -27,7 +27,7 @@ section {
 .primary-button {
     background-color: transparent;
     border: solid #FFB703;
-    border-radius: 10px;
+    border-radius: 16px;
     color: #FFB703;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
@@ -45,5 +45,26 @@ section {
 @media screen and (min-width: 768px) {
     section {
         padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 968px;
+        margin: 0 auto;
+    }
+
+    section {
+        /* padding: 1rem 18rem; */
+        padding: 1rem 0;
+    }
+
+    .primary-button {
+        /* padding: 1rem; */
+    }
+
+    .title {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
     }
 }
