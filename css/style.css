@@ -243,4 +243,8 @@
     .skill-level {
         font-size: 1rem;
     }
+
+    .projects__item {
+        width: calc(100vw - 12rem);
+    }
 }
