@@ -1,7 +1,38 @@
-.header {
+header {
     background-color: #001B2E;
     color: #fff;
     padding: 20px;
+}
+h1 {
     font-weight: bold;
+}
+nav {
     text-align: center;
+}
+nav ul {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        max-width: 968px;
+        margin: 0 auto;
+    }
+    .header {
+        max-width: 968px;
+    }
+
+    .navigation__list {
+        display: flex;
+        gap: 2rem;
+    }
+    .navigation__list li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .navigation__list li a:hover {
+        text-decoration: underline;
+    }
 }
