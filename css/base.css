@@ -55,8 +55,7 @@ section {
 
 @media screen and (min-width: 1024px) {
     .container {
-        max-width: 968px;
-        margin: 0 auto;
+        max-width: 800px;
     }
 
     section {
@@ -71,5 +70,12 @@ section {
     .title {
         font-size: 1.5rem;
         padding-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 968px;
+        margin: 0 auto;
     }
 }
