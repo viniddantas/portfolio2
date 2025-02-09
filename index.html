@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
     
 </head>
 <body>
@@ -31,8 +31,155 @@
         </nav>
     </header>
 
+    <main>
+        <section class="presentation container">
+            <div class="presentation__container">
+                <div>
+                    <p>&#x1F44B; Olá, me chamo</p>
+                    <h2 class="name">Vinícius Domingues Dantas</h2>
+                </div>
+                <h3 class="cargo">Estudante de Ciências da Computação</h3>
+                <button class="primary-button download-CV">Download CV</button>
+            </div>
+            <img class="foto-de-perfil" src="./assets/img/foto-de-perfil.jpg" alt="Foto de perfil">
+        </section>
+        
+        <section class="about-me container">
+            <h2 class="title">Sobre mim</h2>
 
+            <p class="about-me__description">Olá, eu sou o Vinícius Domingues Dantas e Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi velit sem, dapibus id pellentesque ut, euismod mollis elit. Donec molestie pharetra mi, sit amet finibus dolor fermentum quis. Sed fringilla nibh ac viverra lacinia. Cras non neque at est mollis imperdiet nec vitae lacus. Nam consequat consectetur nulla et posuere. Etiam pretium.</p>
+        </section>
 
-    <script src="js/script.js"></script>
+        <section class="education container">
+            <h2 class="title">Formação acadêmica</h2>
+
+            <div class="education__list">
+                <div class="education__item">
+                    <div class="ufabc-logo"></div>
+                    <h3 class="education__item__title">Bacharelado em Ciências da Computação</h3>
+                    <p class="education__item__description">Universidade Federal do ABC - UFABC</p>
+                </div>
+                <div class="education__item">
+                    <div class="ufabc-logo"></div>
+                    <h3 class="education__item__title">Bacharelado em Ciências e Tecnologia</h3>
+                    <p class="education__item__description">Universidade Federal do ABC - UFABC</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2 class="title">Habilidades</h2>
+            <h3 class="secondary-title">Front-End</h3>
+            <div class="skills">
+                <div class="skills__item">
+                    <img src="./assets/icons/HTML - LOGO.svg" alt="">
+                    <h3>HTML</h3>
+                    <p class="skill-level">Intermediário</p>
+                </div>
+                <div class="skills__item">
+                    <img src="./assets/icons/CSS - LOGO.svg" alt="">
+                    <h3>CSS</h3>
+                    <p class="skill-level">Intermediário</p>
+                </div>
+                <div class="skills__item">
+                    <img src="./assets/icons/JavaScript - Logo.svg" alt="">
+                    <h3>JavaScript</h3>
+                    <p class="skill-level">Intermediário</p>
+                </div>
+            </div>
+
+            <h3 class="secondary-title">FrameWorks</h3>
+            <div class="skills">
+                <div class="skills__item">
+                    <img src="./assets/icons/React - LOGO.svg" alt="">
+                    <h3>React</h3>
+                    <p class="skill-level">Intermediário</p>
+                </div>
+            </div>
+
+            <h3 class="secondary-title">Banco de Dados</h3>
+            <div class="skills">
+                <div class="skills__item">
+                    <img src="./assets/icons/HTML - LOGO.svg" alt="">
+                    <h3>HTML</h3>
+                    <p class="skill-level">Intermediário</p>
+                </div>
+            </div>
+
+            <h3 class="secondary-title">Ferramentas</h3>
+            <div class="skills">
+                <div class="skills__item">
+                    <img src="./assets/icons/HTML - LOGO.svg" alt="">
+                    <h3>HTML</h3>
+                    <p class="skill-level">Intermediário</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects container">
+            <h2 class="title">Projetos</h2>
+            <div class="projects__list">
+                <div class="projects__item">
+                    <!-- <img src="" alt=""> -->
+                    <div class="project__img"></div>
+                    <h3 class="project__name">Nome do Projeto</h3>
+                    <div>
+                        <a class="secondary-button" href="#">Demo</a>
+                        <a class="secondary-button" href="#">Repositório</a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <!-- <img src="" alt=""> -->
+                    <div class="project__img"></div>
+                    <h3 class="project__name">Nome do Projeto</h3>
+                    <div>
+                        <a class="secondary-button" href="#">Demo</a>
+                        <a class="secondary-button" href="#">Repositório</a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <!-- <img src="" alt=""> -->
+                    <div class="project__img"></div>
+                    <h3 class="project__name">Nome do Projeto</h3>
+                    <div>
+                        <a class="secondary-button" href="#">Demo</a>
+                        <a class="secondary-button" href="#">Repositório</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact container">
+            <h2 class="title">Contato</h2>
+            <div class="contact__container">
+
+                <div class="contact__info">
+                    <div class="contact__info__item">
+                        <div class="contact__info__container">
+                            <img class="contact__logo" src="./assets/icons/linkedin.svg" alt="">
+                            <p>Linkedin</p>
+                            <a href="#">viniddantas</a>
+                        </div>
+                    </div>
+                    <div class="contact__info__item">
+                        <div class="contact__info__container">
+                            <img class="contact__logo" src="./assets/icons/email.svg" alt="">
+                            <p>E-mail</p>
+                            <a href="#">vini.dantas61@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="">
+                        <input type="text" placeholder="Nome">
+                        <input type="email" placeholder="E-mail">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                        <button type="submit" class="primary-button">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
 </body>
 </html>
