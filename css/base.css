@@ -47,3 +47,9 @@ section {
         padding: 2rem;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    section {
+        padding: 1rem 6rem;
+    }
+}
