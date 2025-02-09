@@ -215,4 +215,8 @@
     .cargo {
         font-size: 2rem;
     }
+
+    .about-me__description {
+        font-size: 1.375rem;
+    }
 }

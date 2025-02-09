@@ -52,4 +52,9 @@ section {
     section {
         padding: 1rem 6rem;
     }
+
+    .title {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
 }
